@@ -341,7 +341,7 @@ export default function Rewards({
                           color: colors.text.tertiary,
                         }}
                       >
-                        {share ?? 0}% of supply
+                        {share || 0}% of supply
                       </div>
                     </div>
                     <Button
